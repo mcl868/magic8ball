@@ -1,25 +1,9 @@
 import random
 import time
 
-print("")
-print("")
-print("     _     _      __     ____  _   ___    __  __        __      _     _     ")
-print("    | \   / |    /  \   / __ \| | / _ \  / .\|    \    /  \    | |   | |    ")
-print("    |  \_/  |   / /\ \ | /  \ | |/ / \_\ \  /|    /   / /\ \   | |   | |    ")
-print("    | |\_/| |  / /__\ \| |  __| | |   __ /  \|    \  / /__\ \  | |   | |    ")
-print("    | |   | | / ______ \ \__/ | |\ \_/ /|  + |     |/ ______ \ | |___| |___ ")
-print("    |_|   |_|/_/      \_\____/|_| \___/  \__/|____//_/      \_\|_____|_____|")
-print("")
-print("")
-print("")
-print("What is your name:")
-name = input()
-print("Welcome",name,"and I hope that I may provide you with an answer.")
-print("")
-print("")
 
 
-def magiceightball():
+def question():
     print("What is your question?")
     que = input()
     if '?' in que:
@@ -35,8 +19,27 @@ def magiceightball():
     else:
         print("I don't hear any question. You can ask me a new one if you want.")
 
-runque = "y"
-while runque == "y":
-    runque = magiceightball()
-    print("Type Y if you want to ask me another question.")
-    runque = input()
+
+def magiceightball():
+    print("")
+    print("")
+    print("     _     _      __     ____  _   ___    __  __        __      _     _     ")
+    print("    | \   / |    /  \   / __ \| | / _ \  / .\|    \    /  \    | |   | |    ")
+    print("    |  \_/  |   / /\ \ | /  \ | |/ / \_\ \  /|    /   / /\ \   | |   | |    ")
+    print("    | |\_/| |  / /__\ \| |  __| | |   __ /  \|    \  / /__\ \  | |   | |    ")
+    print("    | |   | | / ______ \ \__/ | |\ \_/ /|  + |     |/ ______ \ | |___| |___ ")
+    print("    |_|   |_|/_/      \_\____/|_| \___/  \__/|____//_/      \_\|_____|_____|")
+    print("")
+    print("")
+    print("")
+    print("What is your name:")
+    name = input()
+    print("Welcome",name,"and I hope that I may provide you with an answer.")
+    print("")
+    print("")
+
+    runque = "y"
+    while runque == "y":
+        runque = question()
+        print("Type Y if you want to ask me another question.")
+        runque = input()

@@ -1,4 +1,4 @@
-# magic8ball
+# theOracle
 
 [Go back to homepage](https://mcl868.github.io/software.html)
 

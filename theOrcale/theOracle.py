@@ -1,3 +1,6 @@
+import random
+import time
+
 def question():
     print("What is your question?")
     que = input()
@@ -6,7 +9,7 @@ def question():
         print(q[0],"Give me 1 second to think about it.")
         time.sleep(1)
         s=random.sample(("No","Yes", "Ask me later", "Bad question", "Maybe",
-                         "I don't want answer that question",
+                         "I don't want to answer that question",
                          "Defintely no","Defintely yes"),1)
         print("My answer to your question is:",s[0])
         print("")
@@ -15,15 +18,17 @@ def question():
         print("I don't hear any question. You can ask me a new one if you want.")
 
 
-def magiceightball():
+def theOracle():
     print("")
     print("")
-    print("     _     _      __     ____  _   ___    __  __        __      _     _     ")
-    print("    | \   / |    /  \   / __ \| | / _ \  / .\|    \    /  \    | |   | |    ")
-    print("    |  \_/  |   / /\ \ | /  \ | |/ / \_\ \  /|    /   / /\ \   | |   | |    ")
-    print("    | |\_/| |  / /__\ \| |  __| | |   __ /  \|    \  / /__\ \  | |   | |    ")
-    print("    | |   | | / ______ \ \__/ | |\ \_/ /|  + |     |/ ______ \ | |___| |___ ")
-    print("    |_|   |_|/_/      \_\____/|_| \___/  \__/|____//_/      \_\|_____|_____|")
+    print("")
+    print("     _______ _    _ ____   ____   ____       __      _      ____   ____ ")
+    print("    |__   __| |  | |  __| / __ \ |    \     /  \    | |    / __ \ |  __|")
+    print("       | |  | |__| | |__|/ /  \ \|    /    / /\ \   | |   / /  \_\|  __ ")
+    print("       | |  |  __  |  __| |    | | | \    / /__\ \  | |  | |    __|  __|")
+    print("       | |  | |  | | |__ \ \__/ /| |\ \  / ______ \ | |___\ \__/ /| |__ ")
+    print("       |_|  |_|  |_|____| \____/ |_| \_|/_/      \_\|_____|\ ___/ |____|")
+    print("")
     print("")
     print("")
     print("")

@@ -17,19 +17,17 @@ import sys
 #    exec(f.read(), version)
 
 setup(
-    name="theOravle",
-    version=version"0.0.1",
-    description="Show how to structure a Python project.",
+    name='theOravle',
+    version='0.0.1',
+    description='Show how to structure a Python project.',
     long_description=readme,
     author='Thomas Maltesen',
-    author_email='x@example.com',
+    author_email='mcl868@alumni.ku.dk',
     url='https://github.com/mcl68/theOravle',
     license='GNU-3.0',
     packages=['theOravle'],
 #   no dependencies in this example
-   install_requires=[
-       'dependency==1.2.3',
-   ],
+   install_requires=['random','time' ],
 #   no scripts in this example
 #   scripts=['bin/a-script'],
     include_package_data=True,

@@ -1,8 +1,3 @@
-import random
-import time
-
-
-
 def question():
     print("What is your question?")
     que = input()

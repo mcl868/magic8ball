@@ -20,7 +20,7 @@ setup(
     name='theOravle',
     version='0.0.1',
     description='Show how to structure a Python project.',
-    long_description=readme,
+#    long_description=readme,
     author='Thomas Maltesen',
     author_email='mcl868@alumni.ku.dk',
     url='https://github.com/mcl68/theOravle',
@@ -31,7 +31,7 @@ setup(
 #   no scripts in this example
 #   scripts=['bin/a-script'],
     include_package_data=True,
-    classifiers=[
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.6'],
+#    classifiers=[
+#        'Programming Language :: Python :: 2.7',
+#        'Programming Language :: Python :: 3.6'],
     )

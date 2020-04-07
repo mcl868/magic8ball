@@ -2,8 +2,7 @@ import random
 import time
 
 def question():
-    print("What is your question?")
-    que = input()
+    que = input("What is your question? ")
     if '?' in que:
         q=random.sample(("Excellent question.","Stupid question."),1)
         print(q[0],"Give me 1 second to think about it.")
@@ -24,7 +23,7 @@ def theOracle():
     print("")
     print("     _______ _    _ ____   ____   ____       __      _      ____   ____ ")
     print("    |__   __| |  | |  __| / __ \ |    \     /  \    | |    / __ \ |  __|")
-    print("       | |  | |__| | |__|/ /  \ \|    /    / /\ \   | |   / /  \_\|  __ ")
+    print("       | |  | |__| | |__ / /  \ \|    /    / /\ \   | |   / /  \_\|  __ ")
     print("       | |  |  __  |  __| |    | | | \    / /__\ \  | |  | |    __|  __|")
     print("       | |  | |  | | |__ \ \__/ /| |\ \  / ______ \ | |___\ \__/ /| |__ ")
     print("       |_|  |_|  |_|____| \____/ |_| \_|/_/      \_\|_____|\ ___/ |____|")
@@ -32,8 +31,7 @@ def theOracle():
     print("")
     print("")
     print("")
-    print("What is your name:")
-    name = input()
+    name = input("What is your name: ")
     print("Welcome",name,"and I hope that I may provide you with an answer.")
     print("")
     print("")
@@ -41,5 +39,4 @@ def theOracle():
     runque = "y"
     while runque == "y":
         runque = question()
-        print("Type Y if you want to ask me another question.")
-        runque = input()
+        runque = input("Type Y if you want to ask me another question. ")
